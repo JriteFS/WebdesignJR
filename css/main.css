@@ -5,6 +5,10 @@ body{
 	background-color: ;
 }
 
+ul li{
+	display: inline;
+}
+
 .para1{
 	background-color: #999;
 	border: 3px solid #333;
@@ -36,7 +40,7 @@ h2{
 }
 
 a:link{
-	color: #69f;
+	color: #87f;
 }
 
 a:visited{
