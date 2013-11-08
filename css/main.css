@@ -5,10 +5,23 @@ body{
 	background-color: #888;
 }
 
-ul li {
+ul li{
 	display: inline;
 }
 
+
+.mainimg{
+	float: right;
+	width: 400px;
+}
+
+.gallery{
+	clear: right;
+}
+
+h3{
+	padding: 10px;
+}
 .intro_para{
 	background-color: #999;
 	border: 3px solid #333;
