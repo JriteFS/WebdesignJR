@@ -2,19 +2,27 @@ body{
 	font-family: "adobe hebrew", arial, sans-serif;
 	width: 850px;
 	margin: 0 auto;
-	background-color: ;
+	background-color: #888;
 }
 
-ul li{
+ul li {
 	display: inline;
 }
 
-.para1{
+.intro_para{
 	background-color: #999;
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
 	text-align: justify;
+}
+
+.footer{
+	background-color: #999;
+	border: 3px solid #333;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
 }
 
 .signup{
