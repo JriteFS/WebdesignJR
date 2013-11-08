@@ -11,7 +11,17 @@ ul li{
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
-	margin-left: 140px;
+	margin-left: 75px;
+}
+
+.content_para{
+	-moz-column-count: 3;
+	background-color: #999;
+	border: 3px solid #333;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: justify;
+	width: 850px;
 }
 
 ol{
@@ -51,6 +61,33 @@ aside{
 	border-radius: 10px;
 	padding: 5px;
 	text-align: justify;
+	width: 850px;
+}
+
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% "adobe hebrew", arial, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px #673653;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px #673653;
+	-moz-box-shadow: 0 1px 2px #673653;
+	box-shadow: 0 1px 2px #673653;
+}
+.button:hover {
+	text-decoration: none;
+	color: #f03;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+	color: #c0f;
 }
 
 .footer{
@@ -74,10 +111,12 @@ aside{
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
+	width: 850px;
 }
 
 p{
 	color: #00f;
+	width: 850px;
 }
 
 h1{
@@ -87,6 +126,7 @@ h1{
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
+	width: 850px;
 }
 
 h2{
@@ -96,6 +136,7 @@ h2{
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
+	width: 850px;
 }
 
 h3{
@@ -109,7 +150,7 @@ h3{
 }
 
 a:link{
-	color: #87f;
+	color: #673653;
 }
 
 a:visited{
