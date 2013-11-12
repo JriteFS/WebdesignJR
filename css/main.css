@@ -1,5 +1,5 @@
 body{
-	font-family: "adobe hebrew", arial, sans-serif;
+	font: 100% 1.5 "adobe hebrew", arial, sans-serif;
 	width: 850px;
 	margin: 0 auto;
 	background-image: url("../images/background.jpg");
@@ -21,12 +21,12 @@ ul li{
 	border-radius: 10px;
 	padding: 5px;
 	text-align: justify;
-	width: 850px;
+	width: 100%;
 }
 
 ol{
 	background-color: #999;
-	width: 200px;
+	width: 23.529411764706%;
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
@@ -39,7 +39,7 @@ a{
 
 .mainimg{
 	float: right;
-	width: 400px;
+	width: 47.058823529412%;
 }
 
 .gallery{
@@ -52,7 +52,7 @@ aside{
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
-	width: 850px;
+	width: 33%;
 }
 
 .intro_para{
@@ -111,12 +111,12 @@ aside{
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
-	width: 850px;
+	width: 100%;
 }
 
 p{
 	color: #00f;
-	width: 850px;
+	width: 100%;
 }
 
 h1{
@@ -126,7 +126,7 @@ h1{
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
-	width: 850px;
+	width: 100%;
 }
 
 h2{
@@ -136,14 +136,14 @@ h2{
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
-	width: 850px;
+	width: 100%;
 }
 
 h3{
 	text-align: center;
 	padding: 10px;
 	background-color: #888;
-	width: 220px;
+	width: 25.882352941176%;
 	text-decoration: underline;
 	border: 3px solid #333;
 	border-radius: 10px;
