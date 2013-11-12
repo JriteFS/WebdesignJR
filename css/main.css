@@ -1,17 +1,9 @@
 body{
 	font: 100% 1.5 "adobe hebrew", arial, sans-serif;
-	width: 850px;
+	max-width: 980px;
 	margin: 0 auto;
-	background-image: url("../images/background.jpg");
-}
-
-ul li{
-	display: inline;
-	background-color: #888;
-	border: 3px solid #333;
-	border-radius: 10px;
-	padding: 5px;
-	margin-left: 75px;
+	background:url("../images/background5.jpg");
+	background-attachment: fixed;
 }
 
 .content_para{
@@ -21,12 +13,31 @@ ul li{
 	border-radius: 10px;
 	padding: 5px;
 	text-align: justify;
-	width: 100%;
+	max-width: 98.5%;
+}
+
+ul li{
+	background-color: #888;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 100% "adobe hebrew", arial, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px #673653;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px #673653;
+	-moz-box-shadow: 0 1px 2px #673653;
+	box-shadow: 0 1px 2px #673653;
+	border: 3px solid #333;
 }
 
 ol{
 	background-color: #999;
-	width: 23.529411764706%;
+	max-width: 23.529411764706%;
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
@@ -37,9 +48,19 @@ a{
 	color: #863;
 }
 
+.topliner{
+	max-width: 100%;
+	border: 3px solid #333;
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+}
 .mainimg{
 	float: right;
-	width: 47.058823529412%;
+	max-width: 47.058823529412%;
+	border: 3px solid #333;
+	border-radius: 10px;
 }
 
 .gallery{
@@ -52,7 +73,7 @@ aside{
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
-	width: 33%;
+	max-width: 100%;
 }
 
 .intro_para{
@@ -61,7 +82,7 @@ aside{
 	border-radius: 10px;
 	padding: 5px;
 	text-align: justify;
-	width: 850px;
+	max-width: 100%;
 }
 
 .button {
@@ -70,7 +91,7 @@ aside{
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 14px/100% "adobe hebrew", arial, sans-serif;
+	font: 100% "adobe hebrew", arial, sans-serif;
 	padding: .5em 2em .55em;
 	text-shadow: 0 1px 1px #673653;
 	-webkit-border-radius: .5em; 
@@ -80,10 +101,12 @@ aside{
 	-moz-box-shadow: 0 1px 2px #673653;
 	box-shadow: 0 1px 2px #673653;
 }
+
 .button:hover {
 	text-decoration: none;
 	color: #f03;
 }
+
 .button:active {
 	position: relative;
 	top: 1px;
@@ -96,6 +119,7 @@ aside{
 	border-radius: 10px;
 	padding: 5px;
 	text-align: center;
+	max-width: 98.5%;
 }
 
 .signup{
@@ -104,6 +128,7 @@ aside{
 	border-radius: 10px;
 	padding: 5px;
 	text-align: center;
+	max-width: 98.5%;
 }
 
 .imgs{
@@ -111,7 +136,7 @@ aside{
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
-	width: 100%;
+	max-width: 100%;
 }
 
 p{
@@ -126,7 +151,7 @@ h1{
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
-	width: 100%;
+	max-width: 100%;
 }
 
 h2{
@@ -136,14 +161,14 @@ h2{
 	border: 3px solid #333;
 	border-radius: 10px;
 	padding: 5px;
-	width: 100%;
+	max-width: 100%;
 }
 
 h3{
 	text-align: center;
 	padding: 10px;
 	background-color: #888;
-	width: 25.882352941176%;
+	max-width: 25.882352941176%;
 	text-decoration: underline;
 	border: 3px solid #333;
 	border-radius: 10px;
@@ -164,4 +189,18 @@ a:hover{
 
 a:active{
 	color: #c0f;
+}
+
+/* Media Queries ------------------------ */
+
+@media screen and (max-width: 960px){
+	 
+}
+
+@media screen and (max-width: 700px){
+
+}
+
+@media screen and (max-width: 480px){
+
 }
