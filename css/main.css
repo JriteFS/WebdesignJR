@@ -1,5 +1,6 @@
 body{
-	font: 100% 1.5 "adobe hebrew", arial, sans-serif;
+	font: 100%/1.5 "berkshire swash", arial, sans-serif;
+	/* Value Error : font 1.5 is not a font value : 100% 1.5 "berkshire swash",arial,sans-serif ???*/
 	max-width: 980px;
 	margin: 0 auto;
 	background:url("../images/background5.jpg");
@@ -9,9 +10,10 @@ body{
 .content_para{
 	-moz-column-count: 3;
 	background-color: #999;
+	opacity: 0.7;
 	border: 3px solid #333;
 	border-radius: 10px;
-	padding: 5px;
+	padding: .35em;
 	text-align: justify;
 	max-width: 98.5%;
 }
@@ -23,7 +25,7 @@ ul li{
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 100% "adobe hebrew", arial, sans-serif;
+	font: 100%/1 "berkshire swash", arial, sans-serif;
 	padding: .5em 2em .55em;
 	text-shadow: 0 1px 1px #673653;
 	-webkit-border-radius: .5em; 
@@ -36,10 +38,12 @@ ul li{
 }
 
 nav ul{
+	font: 100%/1 "berkshire swash", arial, sans-serif;
 	margin: 0;
-	padding: 5px;
+	padding: .35em;
 	text-align: center;
 	list-style-type: none;
+	float: right;
 }
 
 ol{
@@ -47,7 +51,7 @@ ol{
 	max-width: 23.529411764706%;
 	border: 3px solid #333;
 	border-radius: 10px;
-	padding: 5px;
+	padding: .35em;
 	overflow: hidden
 }
 
@@ -76,11 +80,11 @@ a{
 }
 
 aside{
-	clear: right;
+	clear: left;
 	background-color: #999;
 	border: 3px solid #333;
 	border-radius: 10px;
-	padding: 5px;
+	padding: .35em;
 	max-width: 100%;
 }
 
@@ -88,9 +92,10 @@ aside{
 	background-color: #999;
 	border: 3px solid #333;
 	border-radius: 10px;
-	padding: 5px;
+	padding: .35em;
 	text-align: justify;
 	max-width: 100%;
+	clear: right;
 }
 
 .button {
@@ -99,7 +104,7 @@ aside{
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 100% "adobe hebrew", arial, sans-serif;
+	font: 100%/1 "berkshire swash", arial, sans-serif;
 	padding: .5em 2em .55em;
 	text-shadow: 0 1px 1px #673653;
 	-webkit-border-radius: .5em; 
@@ -125,7 +130,7 @@ aside{
 	background-color: #999;
 	border: 3px solid #333;
 	border-radius: 10px;
-	padding: 5px;
+	padding: .35em;
 	text-align: center;
 	max-width: 98.5%;
 }
@@ -134,7 +139,7 @@ aside{
 	background-color: #999;
 	border: 3px solid #333;
 	border-radius: 10px;
-	padding: 5px;
+	padding: .35em;
 	text-align: center;
 	max-width: 98.5%;
 }
@@ -143,10 +148,18 @@ aside{
 	background-color: #999;
 	border: 3px solid #333;
 	border-radius: 10px;
-	padding: 5px;
+	padding: .27em;
 	max-width: 100%;
 	display: block;
 	float: left;
+}
+
+img{
+	background-color: #999;
+	border: 3px solid #333;
+	border-radius: 10px;
+	padding: .18em;
+	max-width: 100%;
 }
 
 p{
@@ -155,12 +168,13 @@ p{
 }
 
 h1{
+	font-family: 'Berkshire Swash', cursive;
 	text-align: center;
 	text-decoration: underline;
 	background-color: #888;
 	border: 3px solid #333;
 	border-radius: 10px;
-	padding: 5px;
+	padding: .35em;
 	max-width: 100%;
 	overflow: hidden
 }
@@ -171,14 +185,15 @@ h2{
 	background-color: #888;
 	border: 3px solid #333;
 	border-radius: 10px;
-	padding: 5px;
+	padding: .35em;
 	max-width: 100%;
-	overflow: hidden
+	overflow: hidden;
+	text-shadow: 0 2px 2px #673653;
 }
 
 h3{
 	text-align: center;
-	padding: 10px;
+	padding: .7em;
 	background-color: #888;
 	max-width: 25.882352941176%;
 	text-decoration: underline;
@@ -207,19 +222,19 @@ a:active{
 /* Media Queries ------------------------ */
 
 	@media screen and (min-width: 701px) and (max-width: 979px) {
-	 	#wrapper{
+	 #wrapper{
 	 	background: #0c9;
 	 	}
 	 	ol{
 	 	max-width: 45%;
 	 	}
 	 	.content_para{
-	-moz-column-count: 2;
+		-moz-column-count: 2;
+		}
 	}
-}
 
 	@media screen and (min-width: 481px) and (max-width: 700px) {
-	 	#wrapper{
+	 #wrapper{
 	 	background: #99f;
 		 }
 		 .mainimg{
@@ -229,12 +244,12 @@ a:active{
 	 	max-width: 80%;
 	 	}
 	 	.content_para{
-	-moz-column-count: 1;
+		-moz-column-count: 1;
+		}
 	}
-}
 
 	@media screen and (max-width: 480px) {
-	 	#wrapper{
+	 #wrapper{
 		background: #9f6;
 	 	}
 	 	.mainimg{
@@ -244,6 +259,9 @@ a:active{
 	 	max-width: 80%;
 	 	}
 	 	.content_para{
-	-moz-column-count: 1;
+		-moz-column-count: 1;
+		}
+		aside{
+		display: none;
+		}
 	}
-}
