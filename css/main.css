@@ -154,6 +154,22 @@ aside{
 	float: left;
 }
 
+form{
+	background-color: #999;
+	border: 3px solid #333;
+	border-radius: 10px;
+	padding: .0002%;
+	max-width: 100%;
+}
+
+input:focus{
+	background: #0cf;
+}
+
+textarea:focus:{
+	background: #0cf;
+}
+
 img{
 	background-color: #999;
 	border: 3px solid #333;
@@ -162,6 +178,24 @@ img{
 	max-width: 100%;
 }
 
+table {
+	background-color: #999;
+	border: 3px solid #333;
+	border-radius: 10px;
+	padding: .0002%;
+	max-width: 100%;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid #000;
+	padding: 0.3em;
+}
+
+th {
+	text-align: left;
+	padding: 0.3em;
+}
 p{
 	color: #00f;
 	width: 100%;
@@ -225,6 +259,9 @@ a:active{
 	 	ol{
 	 	max-width: 45%;
 	 	}
+	 	hi{
+	 	font: 8em;
+	 	}
 	 	.content_para{
 		-moz-column-count: 2;
 		}
@@ -237,8 +274,14 @@ a:active{
 	 	ol{
 	 	max-width: 80%;
 	 	}
+	 	hi{
+	 	font: 7em;
+	 	}
 	 	.content_para{
 		-moz-column-count: 1;
+		}
+		table{
+		display: none;
 		}
 	}
 
@@ -246,8 +289,11 @@ a:active{
 	 	.mainimg{
 	 	float: none;
 	 	}
-	 	nav{
-	 	float: none;
+	 	hi{
+	 	font: 5em;
+	 	}
+	 	ul li{
+	 	display: none;
 	 	}
 	 	ol{
 	 	max-width: 80%;
@@ -256,6 +302,9 @@ a:active{
 		-moz-column-count: 1;
 		}
 		aside{
+		display: none;
+		}
+		table{
 		display: none;
 		}
 	}
