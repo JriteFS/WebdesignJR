@@ -222,9 +222,6 @@ a:active{
 /* Media Queries ------------------------ */
 
 	@media screen and (min-width: 701px) and (max-width: 979px) {
-	 #wrapper{
-	 	background: #0c9;
-	 	}
 	 	ol{
 	 	max-width: 45%;
 	 	}
@@ -234,10 +231,7 @@ a:active{
 	}
 
 	@media screen and (min-width: 481px) and (max-width: 700px) {
-	 #wrapper{
-	 	background: #99f;
-		 }
-		 .mainimg{
+		.mainimg{
 	 	float: none;
 	 	}
 	 	ol{
@@ -249,10 +243,10 @@ a:active{
 	}
 
 	@media screen and (max-width: 480px) {
-	 #wrapper{
-		background: #9f6;
-	 	}
 	 	.mainimg{
+	 	float: none;
+	 	}
+	 	nav{
 	 	float: none;
 	 	}
 	 	ol{
