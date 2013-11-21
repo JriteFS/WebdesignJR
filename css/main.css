@@ -18,26 +18,7 @@ body{
 	max-width: 98.5%;
 }
 
-ul li{
-	background-color: #888;
-	display: inline-block;
-	outline: none;
-	cursor: pointer;
-	text-align: center;
-	text-decoration: none;
-	font: 100%/1 "berkshire swash", arial, sans-serif;
-	padding: .5em 2em .55em;
-	text-shadow: 0 1px 1px #673653;
-	-webkit-border-radius: .5em; 
-	-moz-border-radius: .5em;
-	border-radius: .5em;
-	-webkit-box-shadow: 0 1px 2px #673653;
-	-moz-box-shadow: 0 1px 2px #673653;
-	box-shadow: 0 1px 2px #673653;
-	border: 3px solid #333;
-}
-
-nav ul{
+nav{
 	font: 100%/1 "berkshire swash", arial, sans-serif;
 	margin: 0;
 	padding: .004%;
@@ -53,6 +34,11 @@ ol{
 	border-radius: 10px;
 	padding: .004%;
 	overflow: hidden
+}
+
+ul{
+	list-style-type: none;
+	padding: .004%;
 }
 
 a{
@@ -113,6 +99,7 @@ aside{
 	-webkit-box-shadow: 0 1px 2px #673653;
 	-moz-box-shadow: 0 1px 2px #673653;
 	box-shadow: 0 1px 2px #673653;
+	background-color: #888;
 }
 
 .button:hover {
@@ -150,8 +137,7 @@ aside{
 	border-radius: 10px;
 	padding: .0002%;
 	max-width: 100%;
-	display: block;
-	float: left;
+	overflow: hidden;
 }
 
 form{
@@ -166,7 +152,7 @@ input:focus{
 	background: #0cf;
 }
 
-textarea:focus:{
+textarea:focus{
 	background: #0cf;
 }
 
@@ -176,6 +162,7 @@ img{
 	border-radius: 10px;
 	padding: .0002%;
 	max-width: 100%;
+	float: left;
 }
 
 table {

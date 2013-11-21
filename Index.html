@@ -7,7 +7,8 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
 </head>
-<body id= "wrapper" >		
+<body id= "wrapper" >
+<header>		
 	<h1>What Game I Am Playing Now.</h1>
 	<h2><em>Star Wars The Old Republic- with the Expansion The Hutt Cartel</em></h2>
 	    <img class= "topliner" src="images/topliner.jpg" alt="SWlogo" title="StarWars Logo">
@@ -18,7 +19,8 @@
                      <li class= "button" >See Plans</li>
                      <li class= "button" ><a href="https://account.swtor.com/play-free?utm_campaign=sor_pbm-search-b-usa&amp;utm_source=search.yahoo.com&amp;utm_medium=cpc&amp;sourceid=sor_pbm-search-b-usa&amp;utm_medium=paid-search">Sign Up</a></li>
                  </ul>
-             </nav>			
+             </nav>	
+</header>		
                  <div>		
                      <section class= "intro_para" >This extensive MMO game that has changed from subscribe only to having a free-to-play version has just opened new doors for all. Theis change has allowed those individuals that could not afford to purchase the $15 dollar a month subscription to still be able to join in the fun.
                      </section>
@@ -44,10 +46,12 @@
                              </ol>
 				        <h3 class= "gallery" >Gallery</h3>
 				    <div id= "imgs" >
-	<img src="images/greklot1.jpg" alt="Image of Greklot." title="Greklot the Jedi Gaurdian Saber Ward">
-	<img src="images/greklot2.jpg" alt="Image of Greklot2." title="Greklot the Jedi Gaurdian Call Forward">
-	<img src="images/greklot3.jpg" alt="Image of Greklot3." title="Greklot the Jedi Gaurdian Defences Up">
-	<img src="images/greklot4.jpg" alt="Image of Greklot4." title="Greklot the Jedi Gaurdian Resting">
+				        <ul>
+	                         <li><img src="images/greklot1.jpg" alt="Image of Greklot." title="Greklot the Jedi Gaurdian Saber Ward"></li>
+	                         <li><img src="images/greklot2.jpg" alt="Image of Greklot2." title="Greklot the Jedi Gaurdian Call Forward"></li>
+	                         <li><img src="images/greklot3.jpg" alt="Image of Greklot3." title="Greklot the Jedi Gaurdian Defences Up"></li>
+	                         <li><img src="images/greklot4.jpg" alt="Image of Greklot4." title="Greklot the Jedi Gaurdian Resting"></li>
+	                     </ul>
 	                 </div>
                          <aside>
                              <p> I dont really have any information to put in here yet so I though i would just add some random verb-age to look pretty. I am debating on talking about my personal experience with the game or maybe comparing it to another game that I played for several years. The other game being World of Warcraft. I started playing WOW when it came out and I also bought SWTOR when it came out. So in essence I am an avid gamer. 
@@ -88,41 +92,50 @@
                          <tr>
                              <td>$29.99</td>
                              <td>60 Days</td>
-                             <td>Not </td>
-                             <td>Yes</td>
+                             <td>Not Applicable</td>
+                             <td>No</td>
                          </tr>
                      </table>
-                     <div class= "form">   
-                         <h3>Join Me In My Fun</h3>
-                     <form meathod="get" action="mailto:example@example.com">
+                     <div class= "form" >   
+                         <h3>Questions or Comments</h3>
+                     <form method="get" action="mailto:example@example.com" >
                          <div>
-                             <label for="name_first">First Name</label>
-                             <input type="text" name="name_first" id="name_first" />
+                             <label for="name_first" >First Name</label>
+                             <input type="text" name="name_first" id="name_first"/>
                          </div>
                          <div>
-                             <label for="name_last">Last Name</label>
-                             <input type="text" name="name_last" id="name_last" />
+                             <label for="name_last" >Last Name</label>
+                             <input type="text" name="name_last" id="name_last"/>
                          </div>
                          <div>
-                             <label for="phone">Phone Number</label>
-                             <input type="text" name="phone" id="phone" />
+                             <label for="phone" >Phone Number</label>
+                             <input type="text" name="phone" id="phone"/>
                          </div>
                          <div>
-                             <label for="email">Email Address</label>
-                             <input type="text" name="email" id="email" />
+                             <label for="email" >Email Address</label>
+                             <input type="text" name="email" id="email"/>
                          </div>
                          <div>
-                            <label for="comments">What Is Going On.</label>
-                            <textarea name="coments" rows="20" cols="40"></textarea>
+                             <label for="comment" >What Is Going On?</label>  
                          </div>
                          <div>
-                             <select name="reguarding" id="reguarding">
+                             <select name="reguarding" id="reguarding" >
                                  <option>General Question</option>
                                  <option>Suggestions</option>
                                  <option>Site Error</option>
                                  <option>Legal</option>
                                  <option>Press</option>
                              </select>
+                         </div>
+                         <div>
+                             <textarea name="comment" rows="7" cols="100"></textarea>
+                         </div>
+                         <div>
+                             <input type="checkbox" name="friend" id="friend"/>
+                             <label for="friend" >Make me a friend in game.</label>
+                         </div>
+                         <div>
+                            <input type="submit" />
                          </div>
                      </form>
                  </div>
